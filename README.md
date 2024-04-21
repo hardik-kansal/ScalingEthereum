@@ -2,6 +2,17 @@
 # Reinforcemnt Learning Based Cross--DEX Arbitrage Agent
 
 
+
+### ReturnX __ Arbitrum Sepolia X Morph Testnet X Avail
+
+- Arbitrum Sepolia deployed contract "https://sepolia.arbiscan.io/address/0xae6713ee724a68f2954E4996F08aeF60d15eC91e"
+  
+- Morph testnet deployed contract "https://explorer-testnet.morphl2.io/address/0x14D80eb8a71A7e0FB9357D905D558b752280960A"
+
+- Avail testnet deployed address "0x2eF282cb1Ab2188D79063E6d76eBD6e72dcA8602"
+
+
+
 ### Prerequisites
 
 - Make sure you have `anaconda` installed for managing Python packages and `PyCharm` as IDE.
@@ -14,8 +25,8 @@
 
 - I have used **Twin Delayed Deep Deterministic Policy Gradient** (TD3 DDPG) with **PyTorch**
   
-- Updating Arbitrage Bot is pain in the ass. This project is a proof-of-concept that favours arbitrage opportunities in ethereum network. Rl can easily be extended to cross-dex once model is trained.
-- I have used **UniswapV3** as example.
+- Updating Arbitrage Bot is pain in the ass. This project is a proof-of-concept that favours arbitrage opportunities in among the dexes.
+- I have used **Web3.py** and **UniswapV3** for demonstration.
  
 
 
@@ -47,6 +58,8 @@ yarn install
 - Copy any account and private-Key and paste under `ACCOUNT` in `Agent/config.ini`
 
 - You can add any no of tokens (currently from **UniswapV3** only) in the format `ETH=[decimal][chain-address]`
+
+- Get `Morph` or `Arbitrum Sepolia` testnet API-key and copy it to `train.py` .
 
 
 
