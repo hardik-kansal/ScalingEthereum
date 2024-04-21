@@ -38,9 +38,13 @@ recipient=config['Account-testnet']['address']
 privateKey=config['Account-testnet']['key']
 arbAddr=config['TESTNET']['arbaddress']
 arbABI=config['TESTNET']['abi']
-w3 = Web3(Web3.HTTPProvider("https://arb-sepolia.g.alchemy.com/v2/NrmgNQ2xmOsciR2SCcL4S7Ev_ziAh_al"))
+
+# ADD TESTNET CHAIN RPC URL HERE
+
+w3 = Web3(Web3.HTTPProvider("testnet-chain RPC-url where model params to be stored"))
 arbContract=w3.eth.contract(address=arbAddr,abi=arbABI)
 
+# Functions where Arbitrum Sepolia X Morph X OP Avail Sepolia Testnet are called.
 
 def store_var():
         arbContract = w3.eth.contract(address=arbAddr, abi=arbABI)
@@ -69,7 +73,6 @@ def store_perf(name,episode_lengths,profit_eachEpisode):
 
 
 def train(env,agent,epsilon,num_episodes):
-
 
     store_var()
     pools_dim=env.pools_dim

@@ -9,7 +9,10 @@
   
 - Morph testnet deployed contract "https://explorer-testnet.morphl2.io/address/0x14D80eb8a71A7e0FB9357D905D558b752280960A"
 
-- Avail testnet deployed address "0x2eF282cb1Ab2188D79063E6d76eBD6e72dcA8602"
+- Op-Avail Sepolia Testnet deployed address "0xa326DF8e4132980E69d60199FF79872FCA0C2F5F"
+
+- Op-Avail Sepolia Blockscout verified contract "https://op-avail-sepolia-explorer.alt.technology/address/0xa326DF8e4132980E69d60199FF79872FCA0C2F5F?tab=contract"
+
 
 
 
