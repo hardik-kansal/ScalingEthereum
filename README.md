@@ -3,11 +3,13 @@
 
 
 
-### ReturnX __ Arbitrum Sepolia X Morph Testnet
+### ReturnX __ Arbitrum Sepolia X Morph Testnet X Avail
 
 - Arbitrum Sepolia deployed contract "https://sepolia.arbiscan.io/address/0xae6713ee724a68f2954E4996F08aeF60d15eC91e"
   
 - Morph testnet deployed contract "https://explorer-testnet.morphl2.io/address/0x14D80eb8a71A7e0FB9357D905D558b752280960A"
+
+- Avail testnet deployed address "0x2eF282cb1Ab2188D79063E6d76eBD6e72dcA8602"
 
 
 
