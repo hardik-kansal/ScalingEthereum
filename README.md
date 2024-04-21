@@ -57,6 +57,8 @@ yarn install
 
 - You can add any no of tokens (currently from **UniswapV3** only) in the format `ETH=[decimal][chain-address]`
 
+- Get `Morph` or `Arbitrum Sepolia` testnet API-key and copy it to `train.py` .
+
 
 
 
