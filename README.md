@@ -23,8 +23,8 @@
 
 - I have used **Twin Delayed Deep Deterministic Policy Gradient** (TD3 DDPG) with **PyTorch**
   
-- Updating Arbitrage Bot is pain in the ass. This project is a proof-of-concept that favours arbitrage opportunities in ethereum network. Rl can easily be extended to cross-dex once model is trained.
-- I have used **UniswapV3** as example.
+- Updating Arbitrage Bot is pain in the ass. This project is a proof-of-concept that favours arbitrage opportunities in among the dexes.
+- I have used **Web3.py** and **UniswapV3** for demonstration.
  
 
 
