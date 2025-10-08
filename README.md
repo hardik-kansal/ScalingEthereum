@@ -30,7 +30,7 @@
 
 - I have used **Twin Delayed Deep Deterministic Policy Gradient** (TD3 DDPG) with **PyTorch**
   
-- Updating Arbitrage Bot is pain in the ass. This project is a proof-of-concept that favours arbitrage opportunities in among the dexes.
+- Updating Arbitrage Bot is pain. This project is a proof-of-concept that favours arbitrage opportunities in among the dexes.
 - I have used **Web3.py** and **UniswapV3** for demonstration.
  
 
